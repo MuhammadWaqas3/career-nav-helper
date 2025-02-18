@@ -9,6 +9,7 @@ import NotFound from "./pages/NotFound";
 import Universities from "./pages/Universities";
 import EntryTest from "./pages/EntryTest";
 import PastPapers from "./pages/PastPapers";
+import CSQuiz from "./pages/CSQuiz";
 
 const queryClient = new QueryClient();
 
@@ -23,7 +24,7 @@ const App = () => (
           <Route path="/universities" element={<Universities />} />
           <Route path="/entry-test" element={<EntryTest />} />
           <Route path="/past-papers" element={<PastPapers />} />
-          <Route path="/cs-quiz" element={<NotFound />} />
+          <Route path="/cs-quiz" element={<CSQuiz />} />
           <Route path="/doubts" element={<NotFound />} />
           <Route path="/fields" element={<NotFound />} />
           <Route path="/login" element={<NotFound />} />
