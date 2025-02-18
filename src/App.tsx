@@ -8,6 +8,7 @@ import Index from "./pages/Index";
 import NotFound from "./pages/NotFound";
 import Universities from "./pages/Universities";
 import EntryTest from "./pages/EntryTest";
+import PastPapers from "./pages/PastPapers";
 
 const queryClient = new QueryClient();
 
@@ -21,7 +22,7 @@ const App = () => (
           <Route path="/" element={<Index />} />
           <Route path="/universities" element={<Universities />} />
           <Route path="/entry-test" element={<EntryTest />} />
-          <Route path="/past-papers" element={<NotFound />} />
+          <Route path="/past-papers" element={<PastPapers />} />
           <Route path="/cs-quiz" element={<NotFound />} />
           <Route path="/doubts" element={<NotFound />} />
           <Route path="/fields" element={<NotFound />} />
